@@ -4,8 +4,8 @@
   "description": "this is a test directory to learn git and node",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
     "lite": "lite-server"
   },
   "repository": {
