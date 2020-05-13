@@ -80,8 +80,16 @@
                             senses!
                         </p>
                     </div>
-                    <div class="col-12 col-sm align-self-center">
+                    <div class="col-12 col-sm-3 align-self-center">
                         <img src="img/logo.png" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-sm-3 align-self-center">
+                        <a
+                            class="btn btn-warning btn-block btn-sm text-black"
+                            href="#table_form"
+                        >
+                            Reserve Table
+                        </a>
                     </div>
                 </div>
             </div>
@@ -124,13 +132,26 @@
                     <h3>This Month's Promotions</h3>
                 </div>
                 <div class="col col-smcol-md">
-                    <h2>Weekend Grand Buffet</h2>
-                    <p class="d-none d-sm-block">
-                        Featuring mouthwatering combinations with a choice of
-                        five different salads, six enticing appetizers, six main
-                        entrees and five choicest desserts. Free flowing bubbly
-                        and soft drinks. All for just $19.99 per person
-                    </p>
+                    <div class="media">
+                        <div class="media-body">
+                            <h2 class="mt-0">
+                                Weekend Grand Buffet
+                                <span class="badge badge-danger"> NEW</span>
+                            </h2>
+                            <p class="d-none d-sm-block">
+                                Featuring mouthwatering combinations with a
+                                choice of five different salads, six enticing
+                                appetizers, six main entrees and five choicest
+                                desserts. Free flowing bubbly and soft drinks.
+                                All for just $19.99 per person
+                            </p>
+                        </div>
+                        <img
+                            class="d-flex ml-3 img-thumbnail align-self-center"
+                            src="img/buffet.png"
+                            alt="buffet"
+                        />
+                    </div>
                 </div>
             </div>
 
@@ -155,6 +176,111 @@
                                 specializes in creating mouthwatering
                                 Indo-Italian fusion experiences.
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-sm-8 offset-sm-2">
+                    <div class="card">
+                        <h3 class="card-header bg-warning text-white">
+                            Reserve a Table
+                        </h3>
+                        <div class="card-body">
+                            <form id="table_form">
+                                <div class="form-group row">
+                                    <label class="col-md-2 col-form-label">
+                                        Number of Guests
+                                    </label>
+                                    <div class="col-md-10">
+                                        <label class="radio-inline"
+                                            ><input
+                                                type="radio"
+                                                value="1"
+                                                name="numguests"
+                                            />
+                                            1</label
+                                        >
+                                        &nbsp;
+                                        <label class="radio-inline"
+                                            ><input
+                                                type="radio"
+                                                value="2"
+                                                name="numguests"
+                                            />
+                                            2</label
+                                        >&nbsp;
+                                        <label class="radio-inline"
+                                            ><input
+                                                type="radio"
+                                                value="3"
+                                                name="numguests"
+                                            />
+                                            3</label
+                                        >&nbsp;
+                                        <label class="radio-inline"
+                                            ><input
+                                                type="radio"
+                                                value="4"
+                                                name="numguests"
+                                            />
+                                            4</label
+                                        >&nbsp;
+                                        <label class="radio-inline"
+                                            ><input
+                                                type="radio"
+                                                value="5"
+                                                name="numguests"
+                                            />
+                                            5</label
+                                        >&nbsp;
+                                        <label class="radio-inline"
+                                            ><input
+                                                type="radio"
+                                                value="6"
+                                                name="numguests"
+                                            />
+                                            6</label
+                                        >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label
+                                        class="col-md-2 col-form-label"
+                                        for="date"
+                                    >
+                                        Date and Time
+                                    </label>
+                                    <div class="col-md-4">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="date"
+                                            name="date"
+                                            placeholder="Date"
+                                        />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="time"
+                                            name="date_time"
+                                            placeholder="Time"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-10 offset-md-2">
+                                        <button
+                                            type="submit"
+                                            class="btn btn-primary"
+                                        >
+                                            Reserve
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
